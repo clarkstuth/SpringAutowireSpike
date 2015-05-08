@@ -6,7 +6,7 @@ import org.springframework.stereotype.Repository;
 @Repository
 public class GenericDaoImpl implements GenericDao {
 
-	@Value("${myProperty}")
+	@Value("${app.myProperty:bar}")
 	private String myProperty;
 
 	/*
