@@ -1,5 +1,7 @@
 package com.clarkstuth.SpringSpike;
 
-public class GenericService {
+public interface GenericService {
 
+	public void doSomething();
+	
 }
